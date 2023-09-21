@@ -1,7 +1,4 @@
 import java.util.Scanner;
-import java.util.SortedMap;
-import java.util.concurrent.LinkedTransferQueue;
-
 public class Main {
    public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
@@ -16,7 +13,6 @@ public class Main {
         System.out.println("First char is : '" + getFirstCharOfString(scanner.next()) + "'");
         System.out.println("--------------------------------------");
         System.out.println("Please enter your string to find last char of it :");
-        String userString = scanner.next();
         System.out.println("First char is : '" + getLastCharOfString(scanner.next()) + "'");
         System.out.println("--------------------------------------");
         System.out.println("Please enter your string to change order of chars :");
