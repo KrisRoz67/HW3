@@ -13,7 +13,7 @@ public class Main {
         System.out.println("First char is : '" + getFirstCharOfString(scanner.next()) + "'");
         System.out.println("--------------------------------------");
         System.out.println("Please enter your string to find last char of it :");
-        System.out.println("First char is : '" + getLastCharOfString(scanner.next()) + "'");
+        System.out.println("Last char is : '" + getLastCharOfString(scanner.next()) + "'");
         System.out.println("--------------------------------------");
         System.out.println("Please enter your string to change order of chars :");
         System.out.println("New string is: '" + changeOrderOfFirstChar(scanner.next()) + "'");
